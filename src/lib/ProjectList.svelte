@@ -2,51 +2,64 @@
 	import ProjectCard from './ProjectCard.svelte';
 	import type { Project } from '../types';
 
+	import designProtfolioSmallImg from '../assets/projects/thumbnail-project-1-small.webp';
+	import designProtfolioLargeImg from '../assets/projects/thumbnail-project-1-small.webp';
+	import ELearningSmallImg from '../assets/projects/thumbnail-project-2-small.webp';
+	import ELearningLargeImg from '../assets/projects/thumbnail-project-2-small.webp';
+	import TodoAppSmallImg from '../assets/projects/thumbnail-project-3-small.webp';
+	import TodoAppLargeImg from '../assets/projects/thumbnail-project-3-small.webp';
+	import EntertainmentAppSmallImg from '../assets/projects/thumbnail-project-4-small.webp';
+	import EntertainmentAppLargeImg from '../assets/projects/thumbnail-project-4-small.webp';
+	import MemoryGameSmallImg from '../assets/projects/thumbnail-project-5-small.webp';
+	import MemoryGameLargeImg from '../assets/projects/thumbnail-project-5-small.webp';
+	import ArtGallerySmallImg from '../assets/projects/thumbnail-project-6-small.webp';
+	import ArtGalleryLargeImg from '../assets/projects/thumbnail-project-6-small.webp';
+
 	export const projects: Project[] = [
 		{
 			imageSource: {
-				small: '/projects/thumbnail-project-1-small.webp',
-				large: '/projects/thumbnail-project-1-large.webp',
+				small: designProtfolioSmallImg,
+				large: designProtfolioLargeImg,
 			},
 			name: 'Design portfolio',
 			tags: ['HTML', 'CSS'],
 		},
 		{
 			imageSource: {
-				small: '/projects/thumbnail-project-2-small.webp',
-				large: '/projects/thumbnail-project-2-large.webp',
+				small: ELearningSmallImg,
+				large: ELearningLargeImg,
 			},
 			name: 'E-learning landing page',
 			tags: ['HTML', 'CSS'],
 		},
 		{
 			imageSource: {
-				small: '/projects/thumbnail-project-3-small.webp',
-				large: '/projects/thumbnail-project-3-large.webp',
+				small: TodoAppSmallImg,
+				large: TodoAppLargeImg,
 			},
 			name: 'Todo web app',
 			tags: ['HTML', 'CSS', 'Javascript'],
 		},
 		{
 			imageSource: {
-				small: '/projects/thumbnail-project-4-small.webp',
-				large: '/projects/thumbnail-project-4-large.webp',
+				small: EntertainmentAppSmallImg,
+				large: EntertainmentAppLargeImg,
 			},
 			name: 'Entertainment web app',
 			tags: ['HTML', 'CSS', 'Javascript'],
 		},
 		{
 			imageSource: {
-				small: '/projects/thumbnail-project-5-small.webp',
-				large: '/projects/thumbnail-project-5-large.webp',
+				small: MemoryGameSmallImg,
+				large: MemoryGameLargeImg,
 			},
 			name: 'Memory game',
 			tags: ['HTML', 'CSS', 'Javascript'],
 		},
 		{
 			imageSource: {
-				small: '/projects/thumbnail-project-6-small.webp',
-				large: '/projects/thumbnail-project-6-large.webp',
+				small: ArtGallerySmallImg,
+				large: ArtGalleryLargeImg,
 			},
 			name: 'Art gallery showcase',
 			tags: ['HTML', 'CSS', 'Javascript'],
