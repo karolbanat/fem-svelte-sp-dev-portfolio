@@ -1,7 +1,7 @@
 {
 	"name": "fem-svelte-single-page-developer-portfolio",
 	"private": true,
-	"homepage": "https://karolbanat.github.io/fem-svelte-single-page-developer-portfolio/",
+	"homepage": "https://karolbanat.github.io/fem-svelte-sp-dev-portfolio/",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
