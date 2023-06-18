@@ -4,8 +4,8 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
 
 ## Links
 
-- Solution URL: [FrontEnd Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor Solution Page](https://www.frontendmentor.io/solutions/single-page-developer-portfolio-P78KvmCAg-)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/fem-svelte-sp-dev-portfolio/)
 
 ## Built with
 
